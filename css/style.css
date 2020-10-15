@@ -1,0 +1,33 @@
+.navigation {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  background: #ffffff;
+}
+.logo {
+  color: blue;
+}
+
+.logo1 {
+  color: blue;
+}
+
+.head {
+  width: 1600px;
+  height: 600px;
+  background: #2f303a;
+}
+
+.portfolio {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+}
+.container {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+}
