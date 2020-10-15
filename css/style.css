@@ -18,6 +18,10 @@
   background: #2f303a;
 }
 
+.head-link {
+  text-transform: uppercase;
+}
+
 .portfolio {
   position: absolute;
   width: 1170px;
@@ -30,6 +34,9 @@
   width: 103px;
   height: 38px;
   background: #f5f4fa;
+}
+.title-link {
+  background-color: blue;
 }
 .container {
   position: absolute;
