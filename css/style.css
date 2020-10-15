@@ -25,6 +25,12 @@
   left: 215px;
   top: 174px;
 }
+
+.link {
+  width: 103px;
+  height: 38px;
+  background: #f5f4fa;
+}
 .container {
   position: absolute;
   width: 370px;
