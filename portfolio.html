@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -15,13 +19,15 @@
           <a href="./index.html" class="logo"
             ><span class="logo1">Web</span><b>Studio</b></a
           >
-          <ul>
+          <ul class="list">
             <li><a href="./index.html">Студия</a></li>
-            <li><a class="test-link" href="./portfolio.html">Портфолиo</a></li>
+            <li>
+              <a href="./portfolio.html" class="test-link current">Портфолиo</a>
+            </li>
             <li><a href="#contacts">Контакты</a></li>
           </ul>
         </nav>
-        <ul>
+        <ul class="list">
           <li><a href="mailto:info@devstudio">info@devstudio</a></li>
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -33,14 +39,14 @@
     <main>
       <section class="portfolio">
         <h1 hidden>Portfolio</h1>
-        <ul class="link">
+        <ul class="list">
           <li><button type="button" class="primary-link-btn">Все</button></li>
           <li><button type="button" class="link-btn">Веб-сайты</button></li>
           <li><button type="button" class="link-btn">Приложения</button></li>
           <li><button type="button" class="link-btn">Дизайн</button></li>
           <li><button type="button" class="link-btn">Маркетинг</button></li>
         </ul>
-        <ul class="container">
+        <ul class="container list">
           <li>
             <img
               src="./images/img01.jpg"
@@ -109,7 +115,7 @@
         ><span class="logo1">Web</span><b>Studio</b></a
       >
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
               href="https://goo.gl/maps/rWAJ1AhQzPDFPeK29"
