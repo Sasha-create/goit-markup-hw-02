@@ -1,4 +1,32 @@
 
+  /*colors {
+    background: #FFFFFF;
+    background: #2F303A;
+    background: #E5E5E5;
+    color: #212121
+    background: #2F303A;
+    background: #F5F4FA; 
+    color: #2196F3;
+    background: #757575;*/
+  
+
+:root {
+  --primary-text-color:#E5E5E5;
+  --title-text-color:  #757575;
+  --accent-color: #2196F3;
+  --hero-background-color: #F5F4FA;
+  --dark-background-color:#2F303A;
+  --head-text-color: #212121;
+  --top-nav-color: #FFFFFF;
+
+}
+
+body {
+  background: #E5E5E5;
+  color: var(--title-text-color);
+}
+
+
 .page-header {
   position: absolute;
   width: 1600px;
@@ -25,25 +53,104 @@
   letter: 3%;
 }
 
-.test-link:hover {
-  color: #2196F3
+.list {
+  list-style: none;
 }
-.site-nav a {
+
+/* Site nav*/
+
+.site-nav .link {
+  color: #212121;
 
 }
 
-.head {
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: #2196F3;
+}
+.contact-nav .link:hover, 
+.contact-nav .link:focus {
+  color: #2196F3;{
+
+} 
+
+/* head baner*/
+
+.head-baner {
   width: 1600px;
   height: 600px;
-  background: #2f303a;
+  background-color: var(--dark-background-color);
 }
 
 .head-link {
-  text-transform: uppercase;
-  height: 120px;
-  width: 696px;
-  color: #ffffff;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 900;
+  color: var(--top-nav-color);
 }
+
+.title-btn:hover ,
+.title-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--top-nav-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0.5;
+} 
+
+.title-btn:active {
+  color: white;
+  background: #2196F3;
+}
+
+/* section*/
+
+
+.section-title, .title {
+  color: #212121;
+}
+
+
+.text {
+  Font 
+Roboto
+Weight 
+400
+Style 
+normal
+Size 
+14px
+Line Height 
+24px
+Letter 
+3%
+}
+
+.hero-title {
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+  background: #212121;
+}
+
+.hero-work {
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+background: #757575;
+
+
+/*Portfolio*/
 
 .portfolio {
   position: absolute;
@@ -65,18 +172,25 @@
 }
 
 .title-link: :active {
-  color: #2196F3;
+  co
+
+
 }
 
-.container {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  background: #ffffff;
+
+}lor: #2196F3;
 }
-.main-heros {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  background: #f5f4fa;
+
+.primary-link-btn:hover {
+  color: white;
+  background: #2196F3;
+
+}
+
+.link-btn:hover {
+width: 130px;
+height: 38px;
+left: 976px;
+top: 174px;
+background: #F5F4FA;
 }
