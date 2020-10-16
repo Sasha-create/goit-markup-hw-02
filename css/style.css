@@ -1,15 +1,35 @@
-.navigation {
+
+.page-header {
   position: absolute;
   width: 1600px;
   height: 80px;
   background: #ffffff;
 }
 .logo {
-  color: blue;
+  color: black;
+  font: Raleway;
+  weight: 700;
+  style: normal;
+  size: 26px;
+  line height: 30.52px;
+  letter: 3%;
 }
 
 .logo1 {
   color: blue;
+  font: Raleway;
+  weight: 700;
+  style: normal;
+  size: 26px;
+  line height: 30.52px;
+  letter: 3%;
+}
+
+.test-link:hover {
+  color: #2196F3
+}
+.site-nav a {
+
 }
 
 .head {
@@ -20,6 +40,9 @@
 
 .head-link {
   text-transform: uppercase;
+  height: 120px;
+  width: 696px;
+  color: #ffffff;
 }
 
 .portfolio {
@@ -35,12 +58,25 @@
   height: 38px;
   background: #f5f4fa;
 }
-.title-link {
-  background-color: blue;
+.title-link:hover , 
+.title-link:focus {
+  background: #2196F3;
+
 }
+
+.title-link: :active {
+  color: #2196F3;
+}
+
 .container {
   position: absolute;
   width: 370px;
   height: 404px;
   background: #ffffff;
+}
+.main-heros {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  background: #f5f4fa;
 }
