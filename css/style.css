@@ -73,7 +73,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  background: #e5e5e5;
+  background: var(--primary-text-color);
   color: var(--title-text-color);
 }
 
@@ -109,8 +109,9 @@ body {
 /* Site nav*/
 
 .site-nav .link {
-  color: #212121;
+  color: var(--head-text-color);
 }
+
 .current {
   color: var(--accent-color);
 }
@@ -172,7 +173,7 @@ body {
 
 .section-title,
 .title {
-  color: #212121;
+  color: var(--head-text-color);
 }
 
 .text {
@@ -211,11 +212,8 @@ body {
 /*Style for portfolio.html*/
 
 .portfolio {
-  position: absolute;
   width: 1170px;
   height: 1360px;
-  left: 215px;
-  top: 174px;
 }
 
 .link {
