@@ -88,6 +88,12 @@ body {
 
 /*Style for index.html*/
 
+.header-site {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  background: #ffffff;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -116,6 +122,55 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--head-text-color);
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+.studio {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: #212121;
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+.portfolio-site {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: #212121;
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+}
+.contact-site {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: #212121;
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
 }
 
 .current {
@@ -139,7 +194,35 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.email {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: #757575;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+}
 
+.phone {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: #757575;
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+}
 /* head baner*/
 
 .section-baner {
@@ -147,6 +230,8 @@ body {
   width: 1600px;
   height: 600px;
   background: var(--dark-background-color);
+  left: 0px;
+  top: 80px;
 }
 
 .head-baner {
@@ -158,6 +243,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--top-nav-color);
+  position: absolute;
   position: absolute;
   width: 696px;
   height: 120px;
@@ -171,12 +257,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
+  position: absolute;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--top-nav-color);
-  position: absolute;
+  display: flex;
   width: 136px;
   height: 30px;
   left: 732px;
