@@ -121,7 +121,7 @@ body {
   color: var(--head-text-color);
 }
 
-.current {
+.site-nav .current {
   color: var(--accent-color);
 }
 
@@ -204,6 +204,7 @@ body {
   font-size: 14px;
   line-height: 0.87;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--head-text-color);
 }
 
