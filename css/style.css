@@ -148,7 +148,7 @@ body {
 /* head baner*/
 
 .section-baner {
-  height: 600px;
+  text-align: center;
   background: var(--dark-background-color);
 }
 
