@@ -170,7 +170,6 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--top-nav-color);
-  display: flex;
 }
 
 .primary-link-btn:hover,
@@ -261,6 +260,7 @@ body {
 }
 
 .footer-baner {
+  font-style: normal;
   color: white;
   background: #2f303a;
 }
@@ -272,6 +272,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   background: #2f303a;
+  font-style: normal;
 }
 
 /*Style for portfolio.html*/
