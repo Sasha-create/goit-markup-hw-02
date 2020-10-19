@@ -89,8 +89,6 @@ body {
 /*Style for index.html*/
 
 .header-site {
-  width: 1600px;
-  height: 80px;
   background: #ffffff;
 }
 
@@ -152,8 +150,6 @@ body {
 
 .section-baner {
   position: absolute;
-  width: 1600px;
-  height: 600px;
   background: var(--dark-background-color);
 }
 
@@ -167,8 +163,6 @@ body {
   text-transform: uppercase;
   color: var(--top-nav-color);
   position: absolute;
-  width: 696px;
-  height: 120px;
 }
 
 .primary-link-btn: {
@@ -208,14 +202,9 @@ body {
 
 /* section*/
 
-.section-title {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 0.85;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.section {
+  position: absolute;
+  background: #e5e5e5;
 }
 
 .title {
@@ -231,6 +220,17 @@ body {
 .title {
   color: var(--head-text-color);
 }
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.85;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  position: absolute;
+}
 
 .text {
   font-family: "Roboto", sans-serif;
@@ -241,6 +241,19 @@ body {
   color: var(--title-text-color);
 }
 
+.section-position {
+  position: absolute;
+  background: #e5e5e5;
+}
+
+.main-heros {
+  position: absolute;
+  background: #f5f4fa;
+}
+
+.hero-card {
+  position: absolute;
+}
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -260,8 +273,6 @@ body {
 }
 
 .footer-baner {
-  width: 1600px;
-  height: 252px;
   color: white;
   background: #2f303a;
 }
