@@ -1,8 +1,7 @@
 /*Style for index.html*/
 
 .header-site {
-  font-style: normal;
-  background: white;
+  background-color: rgb(255, 255, 255, 1);
 }
 
 .logo {
@@ -11,10 +10,10 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--head-text-color);
 }
 
-.logo1 {
+.logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -46,15 +45,6 @@
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: var(--accent-color);
-}
-
-.contact-nav {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
 }
 
 /* head baner*/
@@ -136,9 +126,6 @@
   background: #f5f4fa;
 }
 
-.hero-card {
-}
-
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -192,6 +179,10 @@
   background: var(--hero-background-color);
 }
 
+.img-work a {
+  text-decoration-line: none;
+}
+
 .title-work {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -199,6 +190,7 @@
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  text-decoration-line: none;
 }
 
 .type-work {
@@ -208,6 +200,7 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  text-decoration-line: none;
 }
 
 .footer {
@@ -246,13 +239,4 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: white;
-}
-
-.logo-web {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
 }
