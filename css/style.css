@@ -11,8 +11,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--head-text-color);
-  background: white;
+  color: #212121;
 }
 
 .logo1 {
@@ -22,7 +21,6 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  background: white;
 }
 
 /* Site nav*/
@@ -34,7 +32,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--head-text-color);
-  background: white;
 }
 
 .site-nav .current {
@@ -58,7 +55,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  background: white;
 }
 
 /* head baner*/
