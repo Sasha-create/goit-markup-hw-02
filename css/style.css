@@ -1,6 +1,7 @@
 /*Style for index.html*/
 
 .header-site {
+  font-style: normal;
   background: white;
 }
 
@@ -11,6 +12,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--head-text-color);
+  background: white;
 }
 
 .logo1 {
@@ -20,6 +22,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  background: white;
 }
 
 /* Site nav*/
@@ -31,6 +34,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--head-text-color);
+  background: white;
 }
 
 .site-nav .current {
@@ -54,6 +58,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  background: white;
 }
 
 /* head baner*/
@@ -156,22 +161,6 @@
   color: var(--title-text-color);
 }
 
-.footer-baner {
-  font-style: normal;
-  color: white;
-  background: #2f303a;
-}
-
-.address-style {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  background: #2f303a;
-  font-style: normal;
-}
-
 /*Style for portfolio.html*/
 
 .title-button: {
@@ -225,15 +214,49 @@
   color: var(--title-text-color);
 }
 
-.foot-style a {
-  color: inherit;
+.footer {
+  font-style: normal;
+  background: #2f303a;
+}
+.footer a {
+  font-style: normal;
   text-decoration: none;
+  color: white;
 }
 
-.email {
+.footer .email {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.phone {
+.footer .phone {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
