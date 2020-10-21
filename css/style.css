@@ -71,18 +71,19 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--top-nav-color);
 }
 
-.primary-button:hover,
-.primary-button:focus {
+.primary-button {
   color: var(--top-nav-color);
   background-color: var(--accent-color);
+  border: none;
+  text-decoration: none;
   cursor: pointer;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
 }
 
 /* section*/
