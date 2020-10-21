@@ -33,6 +33,16 @@
   color: var(--head-text-color);
 }
 
+.contact-nav {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
 .site-nav .current {
   color: var(--accent-color);
 }
@@ -155,33 +165,39 @@
 
 /*Style for portfolio.html*/
 
+.title-potfolio {
+  text-decoration: var(--head-text-color);
+}
+
 .title-button: {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  color: #212121;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--head-text-color);
+}
+
+.title-button: {
   background: #f5f4fa;
   border-radius: 4px;
 }
-
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
 .title-button:hover {
   color: var(--top-nav-color);
   background: var(--accent-color);
 }
 
-.title-button: focus {
-  outline: none;
-}
-
 .title-button:active {
   color: var(--top-nav-color);
   background: var(--accent-color);
-}
-
-.title-portfolio li {
-  color: inherit;
-  text-decoration: none;
 }
 
 .link {
@@ -213,9 +229,16 @@
 }
 
 .footer {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
   background: #2f303a;
 }
+
 .footer a {
   font-style: normal;
   text-decoration: none;
