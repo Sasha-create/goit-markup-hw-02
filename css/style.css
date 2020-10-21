@@ -95,6 +95,13 @@
   border-radius: 4px;
 }
 
+.primary-button:hover,
+.primary-button:focus {
+  color: var(--top-nav-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
 /* section*/
 
 .section {
@@ -188,8 +195,12 @@
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.62;
   text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.03em;
 }
+
 .title-button:hover {
   color: var(--top-nav-color);
   background: var(--accent-color);
