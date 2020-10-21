@@ -72,12 +72,14 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--top-nav-color);
+  background-color: var(--accent-color);
 }
 
 .primary-button:hover,
 .primary-button:focus {
   color: var(--top-nav-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* section*/
